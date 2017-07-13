@@ -1,8 +1,5 @@
 import org.scalatest.FlatSpec
 
-/**
-  * Created by mocman on 7/13/17.
-  */
 class FindRecursionTest extends FlatSpec {
   "Identical prefixes" should "reduce to nothing" in {
     val findRecursion: FindRecursion[Char] = new FindRecursion[Char]
